@@ -2,27 +2,34 @@
 <p align="center">
   <img src="images/cover.jpg"/>
 </p>
+
 ## Introduction
+
 ### About this project
 My first Arduino project. This is a four-wheel car with 3 modes:
 - Auto: Obstacle avoiding
 - Manual: Bluetooth controlling
 - Manual: Infrared controlling
+
 ### Feature
 Unlike many tutorials on the internet, I build my robot to stop automatically without having to press any `stop button`. If I want the robot to run, I'll just hold the button on the controller and release it when i dont want to.
+
 ### DEMO
 #### Obstacle Avoiding
 <p align="center">
   <img src="images/DEMO/obstacle_avoiding.gif"/>
 </p>
+
 #### Bluetooth Controlling
 <p align="center">
   <img src="images/DEMO/"/>
 </p>
+
 #### IR Controlling
 <p align="center">
   <img src="images/DEMO/IR_controlling.gif"/>
 </p>
+
 ## Components and Supplies
 | Image                           | Name                        | QTY |
 |---------------------------------|-----------------------------|-----|
@@ -35,9 +42,10 @@ Unlike many tutorials on the internet, I build my robot to stop automatically wi
 | ![](images/components/KY_022.png)          | KY-022 - IR Receiver Sensor | 1   |
 | ![](images/components/mini_breadboard.png) | Mini breadboard             | 1   |
 | ![](images/components/box.png)             | Plastic box                 | 1   |
+
 ## Necessary tools
-| Image                           | Name                    |
-|---------------------------------|-------------------------|
+| Image                                      | Name                    |
+|--------------------------------------------|-------------------------|
 | ![](images/components/engineering_kit.png) | Kid's engineering kit   |
 | ![](images/components/soldering_iron.png)  | Soldering iron          |
 | ![](images/components/glue_gun.png)        | Hot glue gun            |
@@ -56,6 +64,7 @@ Notes:
 #define SOS	  0xFF18E7
 #define HOLD  0xFFFFFFFF // Generally, remote will send this value when you're holding a button
 ```
+
 ## App
 - Arduino IDE
 - Any Arduino bluetooth controller app. 
