@@ -61,7 +61,7 @@ Notes:
 #define MODE1 0xFFE01F
 #define MODE2 0xFFA857
 #define MODE3 0xFF906F
-#define SOS	  0xFF18E7
+#define SOS   0xFF18E7
 #define HOLD  0xFFFFFFFF // Generally, remote will send this value when you're holding a button
 ```
 
