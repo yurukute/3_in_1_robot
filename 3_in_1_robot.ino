@@ -28,7 +28,7 @@ NewPing sonar(TRIG, ECHO, 250);
 Servo servo;
 
 IRrecv irrecv(9);
-decode_results res;
+decode_results button;
 
 const int motors[] = {7,6,5,4}; //L298N pins
 int distance = 100, mode = 0;
@@ -43,8 +43,8 @@ void setup() {
 }
 
 void loop() {
-	if(mode != 3 && irrecv.decode(&res)){
-    switchMode(res.value);
+	if(mode != 3 && irrecv.decode(&button)){
+    switchMode(button.value);
     irrecv.resume();
   }
   if(mode != 2 && Serial.available()){		
@@ -131,11 +131,11 @@ void bluetoothControlling(){
 }
 
 void irControlling(){
-	if(irrecv.decode(&res)){			
-		translateIR(res.value);
+	if(irrecv.decode(&button)){			
+		translateIR(button.value);
 		irrecv.resume();
 	}
-	delay(180); 
+	delay(200); 
 	stop();
 }
 
