@@ -1,5 +1,5 @@
 #include <Servo.h>
-#include <NewPing.h>  			// Ultrasonic sensor
+#include <NewPing.h>        // Ultrasonic sensor
 #include <IRremote.h> 
 #include <SoftwareSerial.h> // Bluetooth communication
 
@@ -43,22 +43,22 @@ void setup() {
 }
 
 void loop() {
-	if(mode != 3 && irrecv.decode(&button)){
+  if(mode != 3 && irrecv.decode(&button)){
     switchMode(button.value);
     irrecv.resume();
   }
-  if(mode != 2 && Serial.available()){		
-		switchMode(Serial.read());    
+  if(mode != 2 && Serial.available()){    
+    switchMode(Serial.read());    
   }
   switch(mode){
   case 0: // Stanby mode
     stop();
     servo.write(STRAIGHT);
     break;
-  case 1: obstacleAvoiding();			break;
-  case 2: bluetoothControlling();	break;		
-  case 3: irControlling();				break;
-	}
+  case 1: obstacleAvoiding();     break;
+  case 2: bluetoothControlling(); break;    
+  case 3: irControlling();        break;
+  }
 }
 
 void switchMode(int data){
@@ -68,14 +68,14 @@ void switchMode(int data){
       mode = 1;
     break;
   case OFF: case '4':
-		mode = 0;
+    mode = 0;
     break;
   case MODE1: case '1':
     mode = 1; 
     break;
   case MODE2: case '2':
     mode = 2;
-		Serial.read();
+    Serial.read();
     break;
   case MODE3: case '3':
     mode = 3;
@@ -84,19 +84,19 @@ void switchMode(int data){
 }
 
 void obstacleAvoiding(){
-	if(distance < 30){
-		stop();
-		delay(300);
-		moveBackward();
-		delay(400);
-		stop();
-		delay(300);
-		getDistance(LEFT) > getDistance(RIGHT) ? turnLeft() : turnRight();
-		delay(400);
-		stop();
-	}
-	else moveForward(); 
-	distance = getDistance(STRAIGHT);
+  if(distance < 30){
+    stop();
+    delay(300);
+    moveBackward();
+    delay(400);
+    stop();
+    delay(300);
+    getDistance(LEFT) > getDistance(RIGHT) ? turnLeft() : turnRight();
+    delay(400);
+    stop();
+  }
+  else moveForward(); 
+  distance = getDistance(STRAIGHT);
 }
 
 int getDistance(int DIRECTION){
@@ -111,59 +111,59 @@ int getDistance(int DIRECTION){
 }
 
 void bluetoothControlling(){
-	if(Serial.available()){
-		switch(Serial.read()){
-		case '1':
-			switchMode(OFF);
-			Serial.read();
-			break;
-		case '2': servo.write(RIGHT);     break;      
-		case '3': servo.write(STRAIGHT);  break;
-		case '4': servo.write(LEFT);		 	break;
-		case 'N': moveForward();          break;
-		case 'S': moveBackward();         break;
-		case 'W': turnLeft();             break;
-		case 'E': turnRight();            break;
-		}
-	}
-	delay(60);
-	stop();
+  if(Serial.available()){
+    switch(Serial.read()){
+    case '1':
+      switchMode(OFF);
+      Serial.read();
+      break;
+    case '2': servo.write(RIGHT);     break;      
+    case '3': servo.write(STRAIGHT);  break;
+    case '4': servo.write(LEFT);      break;
+    case 'N': moveForward();          break;
+    case 'S': moveBackward();         break;
+    case 'W': turnLeft();             break;
+    case 'E': turnRight();            break;
+    }
+  }
+  delay(60);
+  stop();
 }
 
 void irControlling(){
-	if(irrecv.decode(&button)){			
-		translateIR(button.value);
-		irrecv.resume();
-	}
-	delay(200); 
-	stop();
+  if(irrecv.decode(&button)){     
+    translateIR(button.value);
+    irrecv.resume();
+  }
+  delay(200); 
+  stop();
 }
 
 void translateIR(int data){
-	switch(data){
-	case OFF:
-		switchMode(OFF);
-		break;
-	case MODE1: case 'L':
-		turnLeft();
-		last_command = 'L';
-		break;
-	case MODE2: case 'F':
-		moveForward();
-		last_command = 'F';
-		break;			 
-	case MODE3: case 'R':
-		turnRight();
-		last_command = 'R';
-		break;					
-	case SOS: case 'B':
-		moveBackward();
-		last_command = 'B';
-		break;
-	case HOLD:
-		translateIR(last_command);
-		break;
-	}
+  switch(data){
+  case OFF:
+    switchMode(OFF);
+    break;
+  case MODE1: case 'L':
+    turnLeft();
+    last_command = 'L';
+    break;
+  case MODE2: case 'F':
+    moveForward();
+    last_command = 'F';
+    break;       
+  case MODE3: case 'R':
+    turnRight();
+    last_command = 'R';
+    break;          
+  case SOS: case 'B':
+    moveBackward();
+    last_command = 'B';
+    break;
+  case HOLD:
+    translateIR(last_command);
+    break;
+  }
 }
 
 void stop(){
@@ -194,8 +194,8 @@ void turnLeft(){
 }
 
 void turnRight(){
-	digitalWrite(motors[0], LOW);
-	digitalWrite(motors[1], HIGH);
-	digitalWrite(motors[2], HIGH);
-	digitalWrite(motors[3], LOW);  
+  digitalWrite(motors[0], LOW);
+  digitalWrite(motors[1], HIGH);
+  digitalWrite(motors[2], HIGH);
+  digitalWrite(motors[3], LOW);  
 }
