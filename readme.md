@@ -76,15 +76,15 @@ IRrecv irrecv(RECV_PIN);
 decode_results button;
 
 void setup(){
-	Serial.begin(9600);
-	irrecv.enableIRIn(); // Initialization to receive IR signals 
+  Serial.begin(9600);
+  irrecv.enableIRIn(); // Initialization to receive IR signals 
 }
 
 void loop(){
-	if(irrecv.decode(&button)){ // Store decoded signal in `button`, return 0 if nothing is received		
-		Serial.println(button.value); // Print the value to the serial monitor
-		irrecv.resume();
-	}
+  if(irrecv.decode(&button)){ // Store decoded signal in `button`, return 0 if nothing is received        
+    Serial.println(button.value); // Print the value to the serial monitor
+    irrecv.resume();
+  }
 }
 ```
 On Arduino IDE, go to `Tools` -> `Serial Monitor` (or press Ctrl+Shift+M) then press the buttons on the remote respectively to get their Hex values on the monitor.
