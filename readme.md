@@ -65,7 +65,7 @@ Notes:
 ### How to exactly know the hex codes?
 Connect IR receiver module with Arduino like this
 
-<img src="images/IR"/>
+<img src="images/IRremote_bb.svg"/>
 
 Then plug in the USB cable to upload the code. 
 ```c
