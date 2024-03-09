@@ -1,0 +1,218 @@
+[
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/CDC.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/CDC.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/CDC.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/CDC.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/HardwareSerial.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/HardwareSerial.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/HardwareSerial0.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial0.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial0.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/HardwareSerial0.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/HardwareSerial1.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial1.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial1.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/HardwareSerial1.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/HardwareSerial2.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial2.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial2.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/HardwareSerial2.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/HardwareSerial3.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial3.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial3.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/HardwareSerial3.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/IPAddress.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/IPAddress.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/IPAddress.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/IPAddress.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/PluggableUSB.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/PluggableUSB.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/PluggableUSB.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/PluggableUSB.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/Print.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/Print.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/Print.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/Print.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/Stream.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/Stream.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/Stream.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/Stream.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/Tone.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/Tone.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/Tone.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/Tone.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/USBCore.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/USBCore.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/USBCore.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/USBCore.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/WInterrupts.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/WInterrupts.c",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/WInterrupts.c",
+        "output": ".pio/build/nano/FrameworkArduino/WInterrupts.c.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/WMath.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/WMath.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/WMath.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/WMath.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/WString.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/WString.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/WString.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/WString.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/abi.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/abi.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/abi.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/abi.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/hooks.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/hooks.c",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/hooks.c",
+        "output": ".pio/build/nano/FrameworkArduino/hooks.c.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/main.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/main.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/main.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/new.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/new.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/new.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/new.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/wiring.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/wiring.c",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/wiring.c",
+        "output": ".pio/build/nano/FrameworkArduino/wiring.c.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/wiring_analog.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_analog.c",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_analog.c",
+        "output": ".pio/build/nano/FrameworkArduino/wiring_analog.c.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/wiring_digital.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_digital.c",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_digital.c",
+        "output": ".pio/build/nano/FrameworkArduino/wiring_digital.c.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -mmcu=atmega328p -x assembler-with-cpp -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include -c -o .pio/build/nano/FrameworkArduino/wiring_pulse.S.o /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.S",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.S",
+        "output": ".pio/build/nano/FrameworkArduino/wiring_pulse.S.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/wiring_pulse.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.c",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.c",
+        "output": ".pio/build/nano/FrameworkArduino/wiring_pulse.c.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/wiring_shift.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include /home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_shift.c",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_shift.c",
+        "output": ".pio/build/nano/FrameworkArduino/wiring_shift.c.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/libcb3/Servo/avr/Servo.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nano/Servo/src -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nano/Servo/src/avr/Servo.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": ".pio/libdeps/nano/Servo/src/avr/Servo.cpp",
+        "output": ".pio/build/nano/libcb3/Servo/avr/Servo.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/libcb3/Servo/mbed/Servo.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nano/Servo/src -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nano/Servo/src/mbed/Servo.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": ".pio/libdeps/nano/Servo/src/mbed/Servo.cpp",
+        "output": ".pio/build/nano/libcb3/Servo/mbed/Servo.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/libcb3/Servo/megaavr/Servo.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nano/Servo/src -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nano/Servo/src/megaavr/Servo.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": ".pio/libdeps/nano/Servo/src/megaavr/Servo.cpp",
+        "output": ".pio/build/nano/libcb3/Servo/megaavr/Servo.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/libcb3/Servo/nrf52/Servo.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nano/Servo/src -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nano/Servo/src/nrf52/Servo.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": ".pio/libdeps/nano/Servo/src/nrf52/Servo.cpp",
+        "output": ".pio/build/nano/libcb3/Servo/nrf52/Servo.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/libcb3/Servo/renesas/Servo.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nano/Servo/src -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nano/Servo/src/renesas/Servo.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": ".pio/libdeps/nano/Servo/src/renesas/Servo.cpp",
+        "output": ".pio/build/nano/libcb3/Servo/renesas/Servo.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/libcb3/Servo/sam/Servo.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nano/Servo/src -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nano/Servo/src/sam/Servo.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": ".pio/libdeps/nano/Servo/src/sam/Servo.cpp",
+        "output": ".pio/build/nano/libcb3/Servo/sam/Servo.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/libcb3/Servo/samd/Servo.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nano/Servo/src -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nano/Servo/src/samd/Servo.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": ".pio/libdeps/nano/Servo/src/samd/Servo.cpp",
+        "output": ".pio/build/nano/libcb3/Servo/samd/Servo.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/libcb3/Servo/stm32f4/Servo.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nano/Servo/src -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nano/Servo/src/stm32f4/Servo.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": ".pio/libdeps/nano/Servo/src/stm32f4/Servo.cpp",
+        "output": ".pio/build/nano/libcb3/Servo/stm32f4/Servo.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/libc09/NewPing/NewPing.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nano/NewPing/src -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nano/NewPing/src/NewPing.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": ".pio/libdeps/nano/NewPing/src/NewPing.cpp",
+        "output": ".pio/build/nano/libc09/NewPing/NewPing.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/liba0d/SoftwareSerial/SoftwareSerial.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/dung/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/dung/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "/home/dung/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp",
+        "output": ".pio/build/nano/liba0d/SoftwareSerial/SoftwareSerial.cpp.o"
+    },
+    {
+        "command": "/home/dung/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/src/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60111 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -I/home/dung/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src -I.pio/libdeps/nano/IRremote/src -I.pio/libdeps/nano/NewPing/src -I.pio/libdeps/nano/Servo/src -I/home/dung/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/dung/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/dung/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/dung/.platformio/packages/toolchain-atmelavr/avr/include src/main.cpp",
+        "directory": "/home/dung/Code/aio_robot",
+        "file": "src/main.cpp",
+        "output": ".pio/build/nano/src/main.cpp.o"
+    }
+]
