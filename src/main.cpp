@@ -4,31 +4,35 @@
 #include <IRremote.hpp>     // IRremote v4.x
 #include <SoftwareSerial.h> // Bluetooth communication
 
-// Directions
+// Pins
+#define RX 0
+#define TX 1
+#define ECHO 2
+#define TRIG 3
+#define SERVO 4
+#define IRSIG 5
+#define ENA A0
+#define IN1 A1
+#define IN2 A2
+#define IN3 A3
+#define IN4 A4
+#define ENB A5
+
+// Servo Directions
 #define STRAIGHT 100
 #define LEFT     180
 #define RIGHT    10
 
 // IRremote's buttons
-#define ON    69
-#define OFF   71
+#define ON 69
+#define OFF 71
 #define MODE1 7
 #define MODE2 21
 #define MODE3 9
-#define SOS   24
+#define SOS 24
 
-// Pins
-#define RX   0
-#define TX   1
-#define ECHO 2
-#define TRIG 3
-#define IN1  7
-#define IN2  6
-#define IN3  5
-#define IN4  4
-
-// Modes
-#define Inactive 0
+// Controlling modes
+#define Inactive -1
 #define ObsAvoid 1
 #define BTCtrlng 2
 #define IRCtrlng 3
@@ -36,11 +40,12 @@
 SoftwareSerial BTserial(RX, TX);
 NewPing sonar(TRIG, ECHO, 250);
 Servo servo;
-IRrecv irrecv(9);
+IRrecv irrecv(IRSIG);
 decode_results button;
 
-const int motors[] = {IN1, IN2, IN3, IN4}; //L298N pins
-int distance = 100;
+const int motors[] = {IN1, IN2, IN3, IN4}; // L298N pins
+const int defaultMode = ObsAvoid;
+int distance;
 int mode = Inactive;
 
 void switchMode(int signal);
@@ -52,12 +57,18 @@ void moveForward();
 void moveBackward();
 void turnLeft();
 void turnRight();
-void getDistance();
 
 void setup() {
-    for(int i : motors) pinMode(i, OUTPUT);
-    servo.attach(8);
+    for(int i : motors)
+        pinMode(i, OUTPUT);
+    pinMode(ENA, OUTPUT);
+    pinMode(ENB, OUTPUT);
+    analogWrite(ENA, 255);
+    analogWrite(ENB, 255);
+    
+    servo.attach(SERVO);
     servo.write(STRAIGHT);
+
     irrecv.enableIRIn();
     Serial.begin(9600);
 }
@@ -84,8 +95,8 @@ void loop() {
 void switchMode(int signal){
     switch(signal){
     case ON:
-        if(mode == 0)
-            mode = 1;
+        if(mode == Inactive)
+            mode = defaultMode;
         break;
     case OFF:   case Inactive: mode = Inactive; break;
     case MODE1: case ObsAvoid: mode = ObsAvoid; break;
@@ -107,9 +118,10 @@ int getDistance(int DIRECTION){
 }
 
 void obstacleAvoiding(){
+    distance = getDistance(STRAIGHT);
     if(distance < 30){
+        Serial.println("Obstacle at: " + String(distance) + "cm");
         stop();
-        delay(300);
         moveBackward();
         delay(400);
         stop();
@@ -118,8 +130,7 @@ void obstacleAvoiding(){
         delay(400);
         stop();
     }
-    else moveForward(); 
-    distance = getDistance(STRAIGHT);
+    else moveForward();
 }
 
 void bluetoothControlling(){
@@ -185,16 +196,16 @@ void moveBackward(){
 
 void turnLeft(){
     Serial.println("Turning left.");
-    digitalWrite(motors[0], HIGH);
-    digitalWrite(motors[1], LOW);
-    digitalWrite(motors[2], LOW);
-    digitalWrite(motors[3], HIGH); 
+    digitalWrite(motors[0], LOW);
+    digitalWrite(motors[1], HIGH);
+    digitalWrite(motors[2], HIGH);
+    digitalWrite(motors[3], LOW); 
 }
 
 void turnRight(){
     Serial.println("Turning right.");
-    digitalWrite(motors[0], LOW);
-    digitalWrite(motors[1], HIGH);
-    digitalWrite(motors[2], HIGH);
-    digitalWrite(motors[3], LOW);  
+    digitalWrite(motors[0], HIGH);
+    digitalWrite(motors[1], LOW);
+    digitalWrite(motors[2], LOW);
+    digitalWrite(motors[3], HIGH); 
 }
